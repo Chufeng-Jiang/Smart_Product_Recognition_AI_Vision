@@ -1,9 +1,21 @@
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Try_Now-blue?style=for-the-badge&logo=github)](https://chufengjiang0321-smart-product-recognition.hf.space)
 
 # Overview
 
 SmartProduct AI Vision is a comprehensive deep learning-powered system for intelligent product recognition, integrating three core computer vision capabilities: similarity search, image denoising, and product classification. Built with PyTorch and Flask, it offers an intuitive web interface for seamless user interaction.
 
-![alt text](image.png)
+## 🌐 Live Demo
+
+<div align="center">
+   <a href="https://chufengjiang0321-smart-product-recognition.hf.space" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_Click and go to the_Live_Demo-FF6B6B?style=for-the-badge" alt="Demo">
+  </a>
+  <a href="https://chufengjiang0321-smart-product-recognition.hf.space" target="_blank">
+    <img src="image.png" alt="Smart Product Recognition" width="850" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
+  <br>
+
+</div>
 
 ## ✨ Core Features
 
@@ -30,7 +42,7 @@ smartproduct-ai-vision/
 ├── image_denoising/          # Image denoising module
 ├── image_classification/     # Product classification module
 ├── image_similarity/         # Similarity search module
-├── web/                      # Flask web application
+├── app.py                    # Flask web application
 └── README.md                 # This file
 ```
 
@@ -38,7 +50,7 @@ smartproduct-ai-vision/
 
 ## 📋 **Prerequisites**
 
-- Python 3.12
+- Python 3.10+
 - PyTorch 1.8+
 - Flask 2.0+
 - CUDA-capable GPU (recommended for faster inference)
@@ -86,8 +98,7 @@ pip install scikit-learn
 1. **Launch the Flask application**
 
 ```
-cd web
-python web_app.py
+python app.py
 ```
 
 1. **Access the web interface**
@@ -101,5 +112,6 @@ python web_app.py
    - Choose from three available functionalities
 
    - View results in real-time
+
 
      
