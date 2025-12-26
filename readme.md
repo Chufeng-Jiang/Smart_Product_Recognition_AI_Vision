@@ -50,7 +50,7 @@ smartproduct-ai-vision/
 1. **Clone the repository**
 
 ```
-git clone https://github.com/Chufeng-Jiang/Smart_Product_Finder_AI_Vision
+git clone https://github.com/Chufeng-Jiang/Smart_Product_Recognition_AI_Vision
 ```
 
 
