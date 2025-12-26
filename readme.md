@@ -1,8 +1,9 @@
-## Overview
+
+# Overview
 
 SmartProduct AI Vision is a comprehensive deep learning-powered system for intelligent product recognition, integrating three core computer vision capabilities: similarity search, image denoising, and product classification. Built with PyTorch and Flask, it offers an intuitive web interface for seamless user interaction.
 
-
+![alt text](image.png)
 
 ## ✨ Core Features
 
@@ -53,10 +54,8 @@ smartproduct-ai-vision/
 1. **Clone the repository**
 
 ```
-git clone https://github.com/
-cd smartproduct-ai-vision
+git clone https://github.com/Chufeng-Jiang/Smart_Product_Finder_AI_Vision
 ```
-
 
 
 1. **Create virtual environment**
@@ -67,13 +66,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 
-
 1. **Install dependencies**
 
 ```
 pip install -r requirements.txt
 
 or
+
 conda create -n image_similarity_main python=3.12
 conda activate image_similarity_main
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
@@ -86,28 +85,18 @@ pip install scikit-learn
 ```
 
 
-
-1. **Download pretrained models**
-
-```
-# Place models in the models/ directory
-# Or run the model setup script
-python setup_models.py
-```
-
-
-
 ## 🚦 **Quick Start**
 
 1. **Launch the Flask application**
 
 ```
-python app.py
+cd web
+python web_app.py
 ```
 
 1. **Access the web interface**
 
-   - Open your browser and navigate to `http://localhost:5000`
+   - Open your browser and navigate to `http://127.0.0.1:7860/`
 
 2. **Using the system**
 
@@ -118,60 +107,3 @@ python app.py
    - View results in real-time
 
      
-
-## 🎯 **Usage Examples**
-
-### **Similarity Search***
-
-1. Upload a product image (e.g., a pair of shoes)
-2. System returns 5 most similar products from database
-3. Results include similarity scores and product details
-
-### **Image Denoising**
-
-1. Upload any image
-2. System adds noise and demonstrates denoising
-3. View side-by-side comparison
-
-### **Product Classification**
-
-1. Upload a product image
-2. System predicts product category
-3. Returns confidence scores for top categories
-
-## 🔧 **Configuration**
-
-Modify `config.yaml` to customize:
-
-- Model paths and parameters
-- Database connections
-- Image processing settings
-- Server configurations
-
-## 📊 **Performance Metrics**
-
-- Similarity search accuracy: ~94%
-- Classification accuracy: ~92%
-- Denoising PSNR improvement: +8dB average
-- Inference time: < 2 seconds per image (GPU)
-
-## 🏭 **Application Scenarios**
-
-### **🛒 E-commerce Platforms**
-
-- Visual search for similar products
-- Automated product categorization
-- Enhanced product images
-
-### **🏬 Retail Intelligence**
-
-- Inventory management via image recognition
-- Customer behavior analysis
-- Shelf monitoring and planogram compliance
-
-### **🔍 Image Search Services**
-
-- Reverse image search for products
-- Content-based image retrieval
-- Visual recommendation systems
-
