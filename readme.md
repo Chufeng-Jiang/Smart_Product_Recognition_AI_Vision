@@ -30,11 +30,7 @@ smartproduct-ai-vision/
 ├── image_denoising/          # Image denoising module
 ├── image_classification/     # Product classification module
 ├── image_similarity/         # Similarity search module
-├── web_module/               # Flask web application
-├── models/                   # Pretrained models
-├── static/                   # Web assets (CSS, JS, images)
-├── templates/                # HTML templates
-├── requirements.txt          # Python dependencies
+├── web/                      # Flask web application
 └── README.md                 # This file
 ```
 
